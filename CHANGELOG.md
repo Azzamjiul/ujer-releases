@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.2 — 2026-10-31
+
+- Display plan access expiry beside the remaining limit percentage in Account & Pro.
+- Show expiry date, time and local timezone from the server; keep login expiry and allowance reset dates separate.
+- Distinguish plans without an expiry date from missing or invalid date information.
+- Clear expiry information when signing out or when refreshing account data fails.
+
 ## 0.1.1 — 2026-10-31
 
 - Added a searchable macOS transcription language picker with the same 100 Whisper language tokens as Android.

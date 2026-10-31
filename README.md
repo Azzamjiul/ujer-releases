@@ -20,9 +20,11 @@ Requires an Apple Silicon Mac (M1 or later) and macOS 14 or later. This download
 4. Open Settings to sign in to Ujer Pro with Google or configure your own transcription provider and API key.
 5. In **General → Transcription language**, choose **Otomatis** for automatic detection or search for a language by English/Indonesian name, native name, or Whisper code. Choices save immediately and apply to the next recording. Manual selection is available for Ujer Pro and Whisper endpoints; other providers use their own language behavior.
 
-**Signing status:** Version 0.1.1 is locally signed, not Developer ID signed or notarized. macOS may block the first launch. Review the blocked app in System Settings → Privacy & Security only if you trust this official download. A changed local build may require approving Keychain or Accessibility access again.
+**Signing status:** Version 0.1.2 is locally signed, not Developer ID signed or notarized. macOS may block the first launch. Review the blocked app in System Settings → Privacy & Security only if you trust this official download. A changed local build may require approving Keychain or Accessibility access again.
 
 The app download is free. Ujer Pro requires an eligible plan and uses your transcription limit. With your own API key, provider charges and terms apply separately.
+
+Account & Pro shows the remaining limit percentage and plan access expiry in your local timezone. Plan expiry is separate from login-session expiry and allowance reset dates. A missing or invalid date is not treated as unlimited access.
 
 ## Verify a download
 
