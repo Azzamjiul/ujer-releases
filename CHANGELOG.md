@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.1 — 2026-10-31
+
+- Added a searchable macOS transcription language picker with the same 100 Whisper language tokens as Android.
+- Otomatis stays at the top even when search filters the remaining languages.
+- Search matches English and Indonesian names, native names, and Whisper language codes.
+- Language choices save immediately and are captured for the next recording; automatic mode omits the language hint from requests.
+- Manual hints are sent to Ujer Pro/Whisper only. Deepgram and other models retain their provider-defined language behavior.
+
 ## 0.1.0 — 2026-10-31
 
 ### Added
